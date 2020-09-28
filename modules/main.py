@@ -274,7 +274,7 @@ class Game:
                     self.show_player_stats = not self.show_player_stats
 
                 if event.key == pg.K_p:
-                    self.soundLoader.snd_heart.play()
+                    self.soundLoader.get_sound('heart.wav').play()
                     print('test')
 
 

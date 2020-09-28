@@ -10,7 +10,7 @@ class SoundLoader:
         self.game = game
         
     
-    def get_sound(self, filename, volume):
+    def get_sound(self, filename, volume = 1):
         sound = Sound(path.join(st.SOUND_FOLDER, filename))
         sound.set_volume(volume * st.SFX_VOL)
         return sound
@@ -20,7 +20,6 @@ class SoundLoader:
         music = Sound(path.join(st.SOUND_FOLDER, filename))
         music.set_volume(volume * st.MU_VOL)
         return music
-        
         
     def load(self):      
         self.snd = {

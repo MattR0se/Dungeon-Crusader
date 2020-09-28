@@ -27,3 +27,25 @@ Requires python 3.x
 |F12 | save dungeon image as png (freezes the game) |
 | V | Display/hide enemy aggro radius|
 | K | kill all enemies on the screen |
+
+
+Install
+```
+pip3 install -r requirements.txt 
+```
+
+Run
+
+```
+python3 modules/main.py
+```
+
+Format
+```
+pip install yapf
+yapf -i game.py
+```
+
+# Tools
+
+[Tiled](https://www.mapeditor.org)

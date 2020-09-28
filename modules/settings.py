@@ -33,7 +33,7 @@ DUNGEON_SIZE = (10, 10)
 SCROLLSPEED = 4 # TOO FAST FOR SMALL SCALES!
 SCROLLSPEED_MENU = 6
 FPS = 60
-FONT = path.join(FONT_FOLDER, 'slkscr.TTF')
+FONT = path.join(FONT_FOLDER, 'slkscr.ttf')
 TITLE = ('DUNGEON CRUSADER | move: ARROW or WASD | attack: SPACE | ' +
         'inventory: ESC | save: F6 | load: F9 | debug mode: H')
 
